@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurahKafiroon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20sp"
+            android:gravity="center_horizontal"
+            android:text="Surah Kafiroon"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ ١"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:text="لَآ أَعْبُدُ مَا تَعْبُدُونَ ٢"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ ٣"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ ٤"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ ٥"
+
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="لَكُمْ دِينُكُمْ وَلِىَ دِينِ ٦"
+
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

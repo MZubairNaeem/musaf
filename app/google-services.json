@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400081416967",
+    "project_id": "face-detection-542b5",
+    "storage_bucket": "face-detection-542b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400081416967:android:5666faa18089100f618ba2",
+        "android_client_info": {
+          "package_name": "com.example.emotiondetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400081416967-slp4qft113s8g7min54maufc4olb8f0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zbP0rUoe_8u8h0xcw3mbVyYc7ZKOROE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400081416967-slp4qft113s8g7min54maufc4olb8f0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

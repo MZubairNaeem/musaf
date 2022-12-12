@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurahNas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20sp"
+            android:gravity="center_horizontal"
+            android:text="Surah Nas"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ١"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:text="مَلِكِ ٱلنَّاسِ ٢"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="إِلَـٰهِ ٱلنَّاسِ ٣"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ٤"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ٥"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ ٦"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
