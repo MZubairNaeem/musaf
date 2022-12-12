@@ -5,8 +5,8 @@
         android:icon="@drawable/home"
         android:id="@+id/home"
         />
-    <item android:title="Favorite"
-        android:icon="@drawable/favorite"
+    <item android:title="Reading"
+        android:icon="@drawable/book"
         android:id="@+id/favorite"/>
     <item android:title="Camera"
         android:icon="@drawable/camera"

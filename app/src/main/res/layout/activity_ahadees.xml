@@ -6,41 +6,140 @@
     android:layout_height="match_parent"
     tools:context=".AhadeesActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <ImageView
+
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg1"
-            />
-        <ImageView
+            android:layout_marginVertical="20sp"
+            android:gravity="center_horizontal"
+            android:text="Anger"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg2"
-            />
-        <ImageView
+            android:gravity="center_horizontal"
+            android:text="@string/anger_eng_text"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg3"
-            />
-        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Our Lord! Forgive us and our fellow believers
+who preceded us in faith, and do not allow any
+resentments into our hearts towards those
+who believe. Our Lord! Indeed, You are Ever
+Gracious, Most Merciful.
+(Surah Al-Hashr, 59:10)"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg4"
-            />
-        <ImageView
+
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="ANXIOUS"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg5"
-            />
-        <ImageView
+            android:layout_marginTop="40dp"
+
+            android:gravity="center_horizontal"
+            android:text="Be sure that Allah is your Protector
+– the best to protect and the best to
+help
+(Quran 8:40)"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ahadeespg6"
-            />
+            android:gravity="center_horizontal"
+            android:text="“And put your trust in Allah(swt); and sufficient is
+Allah(swt) as a trustee/disposee of affairs.”
+(The Holy Quran 33:3)"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="AROUSED"
+
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+
+            android:text="“Our Lord! Bless us with spouses and
+offspring who will be the joy of our
+hearts, and make us models for the
+righteous”
+(Quran 25:74)"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="O Allah give my heart its piety
+And purify it, for you are the best who
+can purify it You are its protector and
+guardian
+(Riyad as-salihin 1479)
+"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="CONFUSED"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="“They plot and plan, and Allah too
+plans; but the best of planners is
+Allah
+(Quran 8:30)"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+
+
     </LinearLayout>
+
 
 </ScrollView>
