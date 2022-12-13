@@ -11,11 +11,11 @@
 
     <ImageView
         android:id="@+id/logo_id"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:scaleType="centerInside"
-        android:src="@drawable/img"
+        android:src="@drawable/logo"
         tools:ignore="MissingConstraints" />
 
 
