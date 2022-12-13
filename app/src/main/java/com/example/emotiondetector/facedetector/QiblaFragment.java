@@ -30,7 +30,7 @@ import com.example.emotiondetector.utils.compass.GPSTracker;
 
 import java.util.Locale;
 
-public class BookmarkFragment extends Fragment {
+public class QiblaFragment extends Fragment {
     private Compass compass;
     private ImageView qiblatIndicator;
     private ImageView imageDial;
@@ -45,7 +45,7 @@ public class BookmarkFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_bookmark, container, false);
+        View view = inflater.inflate(R.layout.qibla_bookmark, container, false);
 
         /////////////////////////////////////////////////
         prefs = getActivity().getSharedPreferences("", MODE_PRIVATE);

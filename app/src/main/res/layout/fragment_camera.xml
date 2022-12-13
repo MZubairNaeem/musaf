@@ -66,6 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
             android:text="Tap to Open Camera"
             android:textColor="@color/white" />
 

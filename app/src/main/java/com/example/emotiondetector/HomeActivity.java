@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 
 import com.example.emotiondetector.databinding.ActivityHomeBinding;
-import com.example.emotiondetector.facedetector.BookmarkFragment;
+import com.example.emotiondetector.facedetector.QiblaFragment;
 import com.example.emotiondetector.facedetector.CameraFragment;
 
 public class HomeActivity extends AppCompatActivity {
@@ -45,7 +45,7 @@ public class HomeActivity extends AppCompatActivity {
                     replaceFragment(new CameraFragment());
                     break;
                 case R.id.bookmark:
-                    replaceFragment(new BookmarkFragment());
+                    replaceFragment(new QiblaFragment());
                     break;
                 case R.id.info:
                     replaceFragment(new PersonFragment());

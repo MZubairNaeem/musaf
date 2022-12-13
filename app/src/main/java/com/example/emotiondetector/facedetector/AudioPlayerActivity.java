@@ -34,6 +34,7 @@ public class AudioPlayerActivity extends AppCompatActivity {
     private Handler mSeekbarUpdateHandler = new Handler();
     private Runnable mUpdateSeekbar;
     private String currentEmotion;
+    private String translation;
     private ArrayList<Integer> playlist;
     private int currentItem;
 
@@ -133,11 +134,31 @@ public class AudioPlayerActivity extends AppCompatActivity {
             playlist.add(R.raw.calm_2);
             playlist.add(R.raw.calm_3);
         }
+        if (currentEmotion.equals("angry")) {
+            translation = "(O Allah, forgive my sin, and turn away the anger of my heart.) \n (I seek refuge in God from Satan) ";
+        } else if (currentEmotion.equals("fear")) {
+            translation = "(Ya Allah! I seek Your refuge from worry and sorrow, and I seek Your refuge from humility and laziness, and I seek Your refuge from cowardice and avarice, and I seek Your refuge from the predominance of debt and the oppression of people.) \n" +
+                    "Ref: (ابو داوؤد ) ";
+
+        } else if (currentEmotion.equals("happy")) {
+            translation = "(Allah I beseech you from the loss of your grace and the transformation of your health." +
+                    "And your wrath and all your wrath)";
+
+        } else if (currentEmotion.equals("sad")) {
+            translation = "(O Allah, I hope for Your mercy. Do not leave me to myself even for a blink of an eye. Correct all of my affairs for me. There is none worthy of worship except You)";
+
+        } else {
+            translation = "(My Lord, aid me and do not aid against me, and\n" +
+                    "grant me victory and do not grant victory\n" +
+                    "over me, plan for me and do not plan against\n" +
+                    "me, guide me and facilitate guidance for me, grant me victory over those who transgress against me.) ";
+
+        }
     }
 
     private void setMoodName() {
         songName = (TextView) findViewById(R.id.txtSname);
-        songName.setText("Ayats for " + currentEmotion + " mood");
+        songName.setText("Ayats for " + currentEmotion + " mood \n" + translation);
     }
 
 
