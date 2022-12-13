@@ -35,6 +35,11 @@ public class AudioPlayerActivity extends AppCompatActivity {
     private Runnable mUpdateSeekbar;
     private String currentEmotion;
     private String translation;
+    private String angry;
+    private String happy;
+    private String fear;
+    private String neutral;
+    private String sad;
     private ArrayList<Integer> playlist;
     private int currentItem;
 
@@ -135,20 +140,26 @@ public class AudioPlayerActivity extends AppCompatActivity {
             playlist.add(R.raw.calm_3);
         }
         if (currentEmotion.equals("angry")) {
-            translation = "(O Allah, forgive my sin, and turn away the anger of my heart.) \n (I seek refuge in God from Satan) \n";
+            angry = "1-  اللَّهُمَّ اغْفِرْ لِي ذَنْبِي، وَأَذْهِبْ غَيْظَ قَلْبِي ";
+            translation = angry +"\n(O Allah, forgive my sin, and turn away the anger of my heart.) \n (I seek refuge in God from Satan) \n";
         } else if (currentEmotion.equals("fear")) {
-            translation = "(Ya Allah! I seek Your refuge from worry and sorrow, and I seek Your refuge from humility and laziness, and I seek Your refuge from cowardice and avarice, and I seek Your refuge from the predominance of debt and the oppression of people.) \n" +
+            fear = "اَللّٰھُمَّ اِنِّیْ اَعُوْذُبِکَ مِنَ الْھَمِّ وَالُحُزْنِ وَاَعُوْذُبِکَ مِنَ الُعَجْزِ وَاْلکَسَلِ وَاَعُوْذُبِکَ مِنَ الُجُبْنِ وُالُبُخْلِ وَاَعُوْذُبِکَ مِنْ غَلَبَۃِ الدَّیْنِ وَقَھْرِ الرِّجَالِ";
+            translation = fear + "\n(Ya Allah! I seek Your refuge from worry and sorrow, and I seek Your refuge from humility and laziness, and I seek Your refuge from cowardice and avarice, and I seek Your refuge from the predominance of debt and the oppression of people.) \n" +
                     "Ref: (ابو داوؤد ) \n";
 
         } else if (currentEmotion.equals("happy")) {
-            translation = "(Allah I beseech you from the loss of your grace and the transformation of your health." +
+            happy = "اَللَّهُمَّ إِنّىْ أَعُوْذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ وَتَحَوُّلِ عَافِيَتِكَ" +
+                    "وَفُجَاءَةِ نِقْمَتِكَ وَجَمِيْعِ سَخَطِكَ";
+            translation = happy + "\n(Allah I beseech you from the loss of your grace and the transformation of your health." +
                     "And your wrath and all your wrath)\n";
 
         } else if (currentEmotion.equals("sad")) {
-            translation = "(O Allah, I hope for Your mercy. Do not leave me to myself even for a blink of an eye. Correct all of my affairs for me. There is none worthy of worship except You)\n";
+            sad = " اَللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لَا إِلَهَ إِلَّا أَنْتَ";
+            translation = sad + "\n(O Allah, I hope for Your mercy. Do not leave me to myself even for a blink of an eye. Correct all of my affairs for me. There is none worthy of worship except You)\n";
 
         } else {
-            translation = "(My Lord, aid me and do not aid against me, and\n" +
+            neutral = "رَبِّ أَعِنِّي وَلَا تُعِنْ عَلَيَّ، وَانْصُرْنِي وَلَا تَنْصُرْ عَلَيَّ، وَامْكُرْ لِي وَلَا تَمْكُرْ عَلَيَّ، وَاهْدِنِي وَيَسِّرِ الهُدَى إِلَيَّ، وَانْصُرْنِي عَلَى مَنْ بَغَى عَلَيَّ";
+            translation = neutral + "\n(My Lord, aid me and do not aid against me, and\n" +
                     "grant me victory and do not grant victory\n" +
                     "over me, plan for me and do not plan against\n" +
                     "me, guide me and facilitate guidance for me, grant me victory over those who transgress against me.) \n";
